@@ -1,12 +1,31 @@
-# React + Vite
+🚀 SpaceX Launch Dashboard
+A responsive, user-friendly web application that displays SpaceX launch data with filtering, searching, and detailed views. Built with React + Tailwind CSS, this dashboard fetches data using SpaceX API v4 and is designed with a clean, mobile-first UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+⚠️ Due to limitations in the available public SpaceX API data, some dummy data has been used to simulate full launch details for visual and functional completeness.
 
-Currently, two official plugins are available:
+📸 Demo
+🔗 Live Deployed Link - https://spacex-dashboard2.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📦 Features
+🚀 List of SpaceX Launches: Shows all available launches using SpaceX API v4
 
-## Expanding the ESLint configuration
+🔍 Search Launches: Filter launches by mission name
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📅 Filter Launches: Show only Past / Upcoming / All launches
+
+ℹ️ Launch Details Modal: Modal popup with full mission details
+
+🧭 Responsive Design: Works across all screen sizes (mobile-first approach)
+
+🧹 Clean Code: Modular, maintainable and follows best practices
+
+💥 Error & Loading Handling: Shows appropriate UI feedback
+
+| Technology    | Description                 |
+| ------------- | --------------------------- |
+| React         | Frontend library            |
+| Tailwind CSS  | Utility-first CSS framework |
+| Axios / Fetch | For API calls               |
+| SpaceX API v4 | Public launch data          |
+| React Icons   | Icons for UI                |
+| React Modal   | For popup/modal window      |
